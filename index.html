@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung Luas Segitiga</title>
+    <link rel="stylesheet" href="css/style.css"></link>
+</head>
+<body>
+  <header>
+  <h1>Menghitung Bangun Datar</h1>
+</header>
+<div class="wrapper">
+  <div class="container">
+    <h3>Luas Segitiga</h3>
+    <form id="form-luas-segitiga">
+      <img class="image" src="https://blog-static.mamikos.com/wp-content/uploads/2021/04/luas-segitiga.jpg" >
+      <table>
+        <tr>
+          <td><label for="">1/2 :</label></td>
+          <td><input type="number" value="0.5" id="" name="" disabled></td>      
+        </tr>
+        <tr>
+          <td><label for="alas">Alas :</label></td>
+          <td><input type="number" id="alas" name="alas" required></td>      
+        </tr>
+        <tr>
+          <td><label for="tinggi">Tinggi :</label></td>
+          <td><input type="number" id="tinggi" name="tinggi" required></td>      
+        </tr>
+      </table>
+        <button class="hitung hitungLuas" type="submit">Hitung</button>
+        <button class="delete deleteluas" type="submit">Hapus</button>
+    </form>
+    <h3 id="rumus"></h3>
+    <h3 id="hasil"></h3>
+  </div>
+  <div class="container">
+    <h3>Keliling Segitiga</h3>
+    <form id="form-keliling-segitiga">
+      <img class="image" src="https://i.pinimg.com/originals/04/cb/5d/04cb5d5312b7c44589e14cfb4cadcf6e.jpg" >
+      <table>
+        <tr>
+          <td><label for="sisiA">Sisi A :</label></td>
+          <td><input type="number" id="sisiA" name="sisiA" required></td>      
+        </tr>
+        <tr>
+          <td><label for="sisiB">Sisi B :</label></td>
+          <td><input type="number" id="sisiB" name="sisiB" required></td>      
+        </tr>
+        <tr>
+          <td><label for="sisiC">Sisi C :</label></td>
+          <td><input type="number" id="sisiC" name="sisiC" required></td>      
+        </tr>
+      </table>
+        <button class="hitung hitungKeliling" type="submit">Hitung</button>
+        <button class="delete deletekeliling" type="submit">Hapus</button>
+    </form>
+    <h3 id="rumus2"></h3>
+    <h3 id="hasil2"></h3>
+  </div>
+</div>
+  <footer class="footer">
+    <p>&copy; 2023 Filach Akbar Arafat. Hak cipta dilindungi undang-undang.</p>
+  </footer>
+</body>
+
+<script src="js/script.js"></script>
+
+</html>
